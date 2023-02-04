@@ -18,7 +18,6 @@ tByte flag = 0;
 void main (void)
 {
     /* Initialization */
-    I2C_Master_Init();
     SW_Init();
     Heat_Init();
     Cool_Init();
